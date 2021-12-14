@@ -5,7 +5,7 @@
         <input
           class="input"
           type="text"
-          placeholder="Find / RegEx"
+          placeholder="文本 或 正则"
           ref="input"
           v-model="searchFilter"
           @keyup.esc="resetSearch()"

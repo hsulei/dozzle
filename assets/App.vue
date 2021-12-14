@@ -83,7 +83,7 @@ onMounted(() => {
 });
 
 watchEffect(() => {
-  setTitle(`${visibleContainers.value.length} containers`);
+  setTitle(`${visibleContainers.value.length} 容器`);
 });
 
 watchEffect(() => {

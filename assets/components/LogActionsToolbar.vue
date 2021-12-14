@@ -17,7 +17,7 @@
               </div>
             </div>
             <div class="level-right">
-              <div class="level-item">Clear</div>
+              <div class="level-item">清除日志</div>
             </div>
           </div>
         </a>
@@ -29,7 +29,7 @@
               </div>
             </div>
             <div class="level-right">
-              <div class="level-item">Download</div>
+              <div class="level-item">下载日志</div>
             </div>
           </div>
         </a>
@@ -42,7 +42,7 @@
               </div>
             </div>
             <div class="level-right">
-              <div class="level-item">Search</div>
+              <div class="level-item">搜索日志</div>
             </div>
           </div>
         </a>

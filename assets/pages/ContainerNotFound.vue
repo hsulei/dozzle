@@ -3,8 +3,8 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-          Container not found.
-          <small class="subtitle">It may have been removed.</small>
+          该容器没有找到
+          <small class="subtitle">可能已被删除</small>
         </h1>
       </div>
     </div>
@@ -17,7 +17,7 @@ import { setTitle } from "@/composables/title";
 export default {
   name: "ContainerNotFound",
   setup() {
-    setTitle("Container not found");
+    setTitle("容器没有找到");
   },
 };
 </script>

@@ -4,7 +4,7 @@
       <div class="container has-text-centered">
         <h1 class="title">
           404.
-          <small class="subtitle">This page does not exist.</small>
+          <small class="subtitle"> 页面不存在</small>
         </h1>
       </div>
     </div>
@@ -12,11 +12,12 @@
 </template>
 
 <script lang="ts">
-import { setTitle } from "@/composables/title";
+import {setTitle} from "@/composables/title";
+
 export default {
   name: "PageNotFound",
   setup() {
-    setTitle("Page not found");
+    setTitle("当前页面不存在");
   },
 };
 </script>

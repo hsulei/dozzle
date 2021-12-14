@@ -3,7 +3,7 @@ import { ref, computed } from "vue";
 
 const subtitle = ref("");
 
-const title = computed(() => `${subtitle.value} - Dozzle`);
+const title = computed(() => `${subtitle.value} `);
 
 useTitle(title);
 

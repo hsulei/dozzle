@@ -3,9 +3,9 @@
     <div class="columns is-marginless">
       <div class="column is-paddingless">
         <router-link :to="{ name: 'default' }">
-          <svg class="logo">
-            <use href="#logo"></use>
-          </svg>
+<!--          <svg class="logo">-->
+<!--            <use href="#logo"></use>-->
+<!--          </svg>-->
         </router-link>
       </div>
       <div class="column is-narrow has-text-right px-1">
@@ -23,7 +23,7 @@
         </router-link>
       </div>
     </div>
-    <p class="menu-label is-hidden-mobile">Containers</p>
+    <p class="menu-label is-hidden-mobile">容器</p>
     <ul class="menu-list is-hidden-mobile">
       <li v-for="item in visibleContainers" :key="item.id" :class="item.state">
         <router-link

@@ -3,7 +3,7 @@
     <o-autocomplete
       ref="autocomplete"
       v-model="query"
-      placeholder="Search containers using ⌘ + k or ctrl + k"
+      placeholder="搜索容器使用 ⌘ + k 或者 ctrl + k"
       field="name"
       open-on-focus
       keep-first

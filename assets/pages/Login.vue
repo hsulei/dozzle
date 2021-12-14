@@ -8,7 +8,7 @@
               <div class="card-content">
                 <form action="" method="post" @submit.prevent="onLogin" ref="form">
                   <div class="field">
-                    <label class="label">Username</label>
+                    <label class="label">用户名</label>
                     <div class="control">
                       <input
                         class="input"
@@ -22,7 +22,7 @@
                   </div>
 
                   <div class="field">
-                    <label class="label">Password</label>
+                    <label class="label">密码</label>
                     <div class="control">
                       <input
                         class="input"
@@ -32,11 +32,11 @@
                         v-model="password"
                       />
                     </div>
-                    <p class="help is-danger" v-if="error">Username and password are not valid.</p>
+                    <p class="help is-danger" v-if="error">用户名密码错误</p>
                   </div>
                   <div class="field is-grouped is-grouped-centered mt-5">
                     <p class="control">
-                      <button class="button is-primary" type="submit">Login</button>
+                      <button class="button is-primary" type="submit">登录</button>
                     </p>
                   </div>
                 </form>
@@ -62,7 +62,7 @@ export default {
     };
   },
   setup() {
-    setTitle("Authentication Required");
+    setTitle("需要授权");
   },
   methods: {
     async onLogin() {

@@ -4,14 +4,14 @@
       {{ state }}
     </div>
     <div class="column is-narrow" v-if="stat.memoryUsage !== null">
-      <span class="has-text-weight-light has-spacer">mem</span>
+      <span class="has-text-weight-light has-spacer">内存</span>
       <span class="has-text-weight-bold">
         {{ formatBytes(stat.memoryUsage) }}
       </span>
     </div>
 
     <div class="column is-narrow" v-if="stat.cpu !== null">
-      <span class="has-text-weight-light has-spacer">load</span>
+      <span class="has-text-weight-light has-spacer">cpu负载</span>
       <span class="has-text-weight-bold"> {{ stat.cpu }}% </span>
     </div>
   </div>

@@ -41,7 +41,6 @@ func (args) Version() string {
 	return version
 }
 
-//go:embed dist
 var content embed.FS
 
 func main() {

@@ -14,7 +14,7 @@ export const DEFAULT_SETTINGS: {
   hourStyle: "auto" | "24" | "12";
 } = {
   search: true,
-  size: "medium",
+  size: "small",
   menuWidth: 15,
   smallerScrollbars: false,
   showTimestamp: true,
@@ -31,7 +31,7 @@ export const search = computed({
 });
 
 export const size = computed({
-  get: () => settings.value.size,
+  get: () =>   settings.value.size,
   set: (value) => (settings.value.size = value),
 });
 
